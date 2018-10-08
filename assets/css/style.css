@@ -9,11 +9,11 @@ canvas {
 	margin: 20% auto;
 }
 
-h1, button {
+h1, h5, button, p {
 	display: block;
 	margin: 20% auto;
 	display: block;
-	font-family: 'Press Start 2P', cursive
+	font-family: 'Press Start 2P', cursive;
 }
 
 h1 {
@@ -35,22 +35,58 @@ h1 {
   margin: 3rem 2rem;
   flex: 1;
 }
+h5 {
+  z-index: 999;
+  /*font-size: 50px;*/
+  color: #f2f2f2;
+  padding-top: 12%;
+  top: 20%;
+  left: 31%;
+  bottom: 0;
+  right: 0;
+  height: 60px;
+  /*text-align: center;*/
+  margin: auto;
+  line-height: 40px;
+  letter-spacing: 2px;
+  position: absolute;
+  margin: 3rem 2rem;
+  flex: 1;
+}
 
-button {
-	outline: none;
-	cursor: pointer;
+p {
 	position: absolute;
 	top: 0;
   	left: 0;
   	bottom: 0;
   	right: 0;
   	height: 60px;
+  	color: #f2f2f2;
+  	border: none;
+  	width: 30%;
+  	/*text-align: center;*/
+  	margin: auto;
+  	font-size: 10px;
+  	line-height: 40px;
+ 	letter-spacing: 2px;
+ 	/*padding: 3rem 2rem;*/
+  	flex: 1;
+}
+button {
+	outline: none;
+	cursor: pointer;
+	position: absolute;
+	top: 20%;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	height: 40px;
   	color: white;
   	border: none;
   	width: 30%;
   	text-align: center;
   	margin: auto;
-  	font-size: 20px;
+  	font-size: 10px;
   	line-height: 40px;
  	letter-spacing: 4px;
  	/*padding: 3rem 2rem;*/
