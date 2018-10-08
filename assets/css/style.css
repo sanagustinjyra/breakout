@@ -5,6 +5,54 @@
 
 canvas { 
 	background: #568EA3;
-	 display: block;
-	 margin: 20% auto;
+	display: block;
+	margin: 20% auto;
+}
+
+h1, button {
+	display: block;
+	margin: 20% auto;
+	display: block;
+	font-family: 'Press Start 2P', cursive
+}
+
+h1 {
+	
+  z-index: 999;
+  font-size: 50px;
+  color: #4ECDC4;
+  padding-top: 10%;
+  top: 15%;
+  left: 10px;
+  bottom: 0;
+  right: 0;
+  height: 60px;
+  text-align: center;
+  margin: auto;
+  line-height: 40px;
+  letter-spacing: 5px;
+  position: absolute;
+  margin: 3rem 2rem;
+  flex: 1;
+}
+
+button {
+	outline: none;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	height: 60px;
+  	color: white;
+  	border: none;
+  	width: 30%;
+  	text-align: center;
+  	margin: auto;
+  	font-size: 20px;
+  	line-height: 40px;
+ 	letter-spacing: 4px;
+ 	/*padding: 3rem 2rem;*/
+  	flex: 1;
 }
